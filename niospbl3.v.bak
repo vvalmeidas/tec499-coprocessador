@@ -1,0 +1,11 @@
+module niospbl3(clk, );
+
+	nios u0 (
+        .clk_clk                         (<connected-to-clk_clk>),                         //                   clk.clk
+        .loadvga_0_conduit_end_data      (<connected-to-loadvga_0_conduit_end_data>),      // loadvga_0_conduit_end.data
+        .loadvga_0_conduit_end_wraddress (<connected-to-loadvga_0_conduit_end_wraddress>), //                      .wraddress
+        .loadvga_0_conduit_end_wren      (<connected-to-loadvga_0_conduit_end_wren>),      //                      .wren
+        .loadvga_0_conduit_end_memorySel (<connected-to-loadvga_0_conduit_end_memorySel>)  //                      .memorySel
+    );
+	 
+endmodule

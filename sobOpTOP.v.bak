@@ -1,0 +1,10 @@
+module sobOpTOP(res);
+
+	output [7:0] res;
+
+	convolucao convolucao(
+		.linha1(24'hffffff), 
+		.linha2(24'hffffff), 
+		.linha3(24'hffffff),
+		.resultado(res)
+	);

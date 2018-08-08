@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="niospbl3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|niospbl3|nios:u0|nios_onchip_memory2_0:onchip_memory2_0|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_jpc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|niospbl3|sobOpTOP:operador|memory4096Bytes:memImgOriginal|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_vmn1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|niospbl3|vgaController:vgaController|memory32:memory32|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_maq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|niospbl3|vgaController:vgaController|memory64:memory64|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_raq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|niospbl3|nios:u0|nios_nios2_qsys_0:nios2_qsys_0|nios_nios2_qsys_0_nios2_oci:the_nios_nios2_qsys_0_nios2_oci|nios_nios2_qsys_0_nios2_ocimem:the_nios_nios2_qsys_0_nios2_ocimem|nios_nios2_qsys_0_ociram_sp_ram_module:nios_nios2_qsys_0_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_v381.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|niospbl3|nios:u0|nios_nios2_qsys_0:nios2_qsys_0|nios_nios2_qsys_0_register_bank_a_module:nios_nios2_qsys_0_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_rmg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|niospbl3|nios:u0|nios_nios2_qsys_0:nios2_qsys_0|nios_nios2_qsys_0_register_bank_b_module:nios_nios2_qsys_0_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_smg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|niospbl3|sobOpTOP:operador|memory4096b:memImgProcessada|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_2kn1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

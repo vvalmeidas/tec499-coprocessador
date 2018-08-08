@@ -1,0 +1,24 @@
+module clockDivisor(
+	clk, 
+	rst,
+	clkOut
+	);
+	//Inputs
+	input clk;
+	input rst;
+
+	//Outputs
+	output clkOut;
+	
+
+	always @(posedge clk) begin
+		if (!rst) begin
+			// reset
+			clkOut = 1'b0; 
+		end
+		else begin
+			clkOut = ~clkOut;
+		end
+	end
+
+endmodule

@@ -1,0 +1,46 @@
+module convolucao(linha1, linha2, linha3, resultado);
+
+	input [23:0] linha1;
+	input [23:0] linha2;
+	input [23:0] linha3;
+	output [7:0] resultado;
+	
+	reg signed [7:0] kernel_v [0:2] [0:2] = '{'{8'h1,8'h0,-8'h1},'{8'h2,8'h0,-8'h2}, '{8'h1,8'h0,-8'h1}};
+	reg signed [7:0] kernel_h [0:2] [0:2] = '{'{-8'h1,-8'h2,-8'h1},'{8'h0,8'h0,8'h0}, '{8'h1,8'h2,8'h1}};
+	
+	wire [7:0] vertical;
+	wire [7:0] horizontal;
+	
+
+	//linha 1
+	vertical = linha1[23:16] * kernel_v[0][0];
+	horizontal = linha1[23:16] * kernel_h[0][0];
+	
+	vertical = vertical + linha1[15:8] * kernvel_v[0][1];
+	horizontal = horizontal + linha1[15:8] * kernvel_h[0][1];
+	
+	vertical = vertical + linha1[7:0] * kernvel_v[0][2];
+	horizontal = horizontal + linha1[7:0] * kernvel_h[0][2];
+	
+	//linha 2
+	vertical = vertical + linha2[23:16] * kernel_v[1][0];
+	horizontal = horizontal + linha2[23:16] * kernel_h[1][0];
+	
+	vertical = vertical + linha2[15:8] * kernvel_v[1][1];
+	horizontal = horizontal + linha2[15:8] * kernvel_h[1][1];
+	
+	vertical = vertical + linha2[7:0] * kernvel_v[1][2];
+	horizontal = horizontal + linha2[7:0] * kernvel_h[1][2];
+	
+	//linha 3
+	vertical = vertical + linha3[23:16] * kernel_v[2][0];
+	horizontal = horizontal + linha3[23:16] * kernel_h[2][0];
+	
+	vertical = vertical + linha3[15:8] * kernvel_v[2][1];
+	horizontal = horizontal + linha3[15:8] * kernvel_h[2][1];
+	
+	vertical = vertical + linha3[7:0] * kernvel_v[2][2];
+	horizontal = horizontal + linha3[7:0] * kernvel_h[2][2];
+
+	assign resultado <= vertical + horizontal;
+	

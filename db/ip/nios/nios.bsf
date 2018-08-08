@@ -1,0 +1,173 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 624 480)
+	(text "nios" (rect 301 -1 316 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 464 20 476)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 61 46 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 272 72)(line_width 1))
+	)
+	(port
+		(pt 0 200)
+		(input)
+		(text "rx_data_pio_export[7..0]" (rect 0 0 97 12)(font "Arial" (font_size 8)))
+		(text "rx_data_pio_export[7..0]" (rect 4 189 148 200)(font "Arial" (font_size 8)))
+		(line (pt 0 200)(pt 272 200)(line_width 3))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "rx_ready_pio_export" (rect 0 0 84 12)(font "Arial" (font_size 8)))
+		(text "rx_ready_pio_export" (rect 4 229 118 240)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 272 240)(line_width 1))
+	)
+	(port
+		(pt 0 448)
+		(input)
+		(text "sobel_ready_external_connection_export" (rect 0 0 164 12)(font "Arial" (font_size 8)))
+		(text "sobel_ready_external_connection_export" (rect 4 437 232 448)(font "Arial" (font_size 8)))
+		(line (pt 0 448)(pt 272 448)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "loadvga_0_conduit_end_data[31..0]" (rect 0 0 140 12)(font "Arial" (font_size 8)))
+		(text "loadvga_0_conduit_end_data[31..0]" (rect 4 101 202 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 272 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(output)
+		(text "loadvga_0_conduit_end_wraddress[5..0]" (rect 0 0 161 12)(font "Arial" (font_size 8)))
+		(text "loadvga_0_conduit_end_wraddress[5..0]" (rect 4 117 226 128)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 272 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(output)
+		(text "loadvga_0_conduit_end_wren" (rect 0 0 119 12)(font "Arial" (font_size 8)))
+		(text "loadvga_0_conduit_end_wren" (rect 4 133 160 144)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 272 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(output)
+		(text "loadvga_0_conduit_end_memorySel" (rect 0 0 147 12)(font "Arial" (font_size 8)))
+		(text "loadvga_0_conduit_end_memorySel" (rect 4 149 190 160)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 272 160)(line_width 1))
+	)
+	(port
+		(pt 0 280)
+		(output)
+		(text "rx_ready_clr_pio_export" (rect 0 0 100 12)(font "Arial" (font_size 8)))
+		(text "rx_ready_clr_pio_export" (rect 4 269 142 280)(font "Arial" (font_size 8)))
+		(line (pt 0 280)(pt 272 280)(line_width 1))
+	)
+	(port
+		(pt 0 320)
+		(output)
+		(text "loadcoprocessador_0_conduit_end_wraddress[31..0]" (rect 0 0 208 12)(font "Arial" (font_size 8)))
+		(text "loadcoprocessador_0_conduit_end_wraddress[31..0]" (rect 4 309 292 320)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 272 320)(line_width 3))
+	)
+	(port
+		(pt 0 336)
+		(output)
+		(text "loadcoprocessador_0_conduit_end_wren" (rect 0 0 162 12)(font "Arial" (font_size 8)))
+		(text "loadcoprocessador_0_conduit_end_wren" (rect 4 325 220 336)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 272 336)(line_width 1))
+	)
+	(port
+		(pt 0 352)
+		(output)
+		(text "loadcoprocessador_0_conduit_end_data[31..0]" (rect 0 0 184 12)(font "Arial" (font_size 8)))
+		(text "loadcoprocessador_0_conduit_end_data[31..0]" (rect 4 341 262 352)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 272 352)(line_width 3))
+	)
+	(port
+		(pt 0 392)
+		(output)
+		(text "readcoprocessador_0_conduit_end_data[31..0]" (rect 0 0 186 12)(font "Arial" (font_size 8)))
+		(text "readcoprocessador_0_conduit_end_data[31..0]" (rect 4 381 262 392)(font "Arial" (font_size 8)))
+		(line (pt 0 392)(pt 272 392)(line_width 3))
+	)
+	(port
+		(pt 0 408)
+		(output)
+		(text "readcoprocessador_0_conduit_end_rdaddress[31..0]" (rect 0 0 210 12)(font "Arial" (font_size 8)))
+		(text "readcoprocessador_0_conduit_end_rdaddress[31..0]" (rect 4 397 292 408)(font "Arial" (font_size 8)))
+		(line (pt 0 408)(pt 272 408)(line_width 3))
+	)
+	(drawing
+		(text "clk" (rect 257 43 532 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 277 67 572 144)(font "Arial" (color 0 0 0)))
+		(text "loadvga_0_conduit_end" (rect 136 83 398 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "data" (rect 277 107 578 224)(font "Arial" (color 0 0 0)))
+		(text "wraddress" (rect 277 123 608 256)(font "Arial" (color 0 0 0)))
+		(text "wren" (rect 277 139 578 288)(font "Arial" (color 0 0 0)))
+		(text "memorySel" (rect 277 155 608 320)(font "Arial" (color 0 0 0)))
+		(text "rx_data_pio" (rect 204 171 474 355)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 277 195 590 400)(font "Arial" (color 0 0 0)))
+		(text "rx_ready_pio" (rect 197 211 466 435)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 277 235 590 480)(font "Arial" (color 0 0 0)))
+		(text "rx_ready_clr_pio" (rect 175 251 446 515)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 277 275 590 560)(font "Arial" (color 0 0 0)))
+		(text "loadcoprocessador_0_conduit_end" (rect 71 291 328 595)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "wraddress" (rect 277 315 608 640)(font "Arial" (color 0 0 0)))
+		(text "wren" (rect 277 331 578 672)(font "Arial" (color 0 0 0)))
+		(text "data" (rect 277 347 578 704)(font "Arial" (color 0 0 0)))
+		(text "readcoprocessador_0_conduit_end" (rect 69 363 324 739)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "data" (rect 277 387 578 784)(font "Arial" (color 0 0 0)))
+		(text "rdaddress" (rect 277 403 608 816)(font "Arial" (color 0 0 0)))
+		(text "sobel_ready_external_connection" (rect 79 419 344 851)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 277 443 590 896)(font "Arial" (color 0 0 0)))
+		(text " nios " (rect 604 464 1244 938)(font "Arial" ))
+		(line (pt 273 52)(pt 273 76)(line_width 1))
+		(line (pt 274 52)(pt 274 76)(line_width 1))
+		(line (pt 273 92)(pt 273 164)(line_width 1))
+		(line (pt 274 92)(pt 274 164)(line_width 1))
+		(line (pt 273 180)(pt 273 204)(line_width 1))
+		(line (pt 274 180)(pt 274 204)(line_width 1))
+		(line (pt 273 220)(pt 273 244)(line_width 1))
+		(line (pt 274 220)(pt 274 244)(line_width 1))
+		(line (pt 273 260)(pt 273 284)(line_width 1))
+		(line (pt 274 260)(pt 274 284)(line_width 1))
+		(line (pt 273 300)(pt 273 356)(line_width 1))
+		(line (pt 274 300)(pt 274 356)(line_width 1))
+		(line (pt 273 372)(pt 273 412)(line_width 1))
+		(line (pt 274 372)(pt 274 412)(line_width 1))
+		(line (pt 273 428)(pt 273 452)(line_width 1))
+		(line (pt 274 428)(pt 274 452)(line_width 1))
+		(line (pt 272 32)(pt 352 32)(line_width 1))
+		(line (pt 352 32)(pt 352 464)(line_width 1))
+		(line (pt 272 464)(pt 352 464)(line_width 1))
+		(line (pt 272 32)(pt 272 464)(line_width 1))
+		(line (pt 0 0)(pt 624 0)(line_width 1))
+		(line (pt 624 0)(pt 624 480)(line_width 1))
+		(line (pt 0 480)(pt 624 480)(line_width 1))
+		(line (pt 0 0)(pt 0 480)(line_width 1))
+	)
+)

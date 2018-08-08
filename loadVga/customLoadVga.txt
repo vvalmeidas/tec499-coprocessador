@@ -1,0 +1,8 @@
+custom op rc, ra, rb
+custom 0    , endereço, dado
+
+
+endereço[5:0] - endereço
+endereço[6] - memorySel
+
+1000000 - tem que somar para memorySel ser 1

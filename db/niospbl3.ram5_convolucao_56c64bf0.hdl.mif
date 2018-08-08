@@ -1,0 +1,14 @@
+-- begin_signature
+-- convolucao
+-- end_signature
+WIDTH=1;
+DEPTH=3;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	2 :	1;
+	1 :	0;
+	0 :	1;
+END;

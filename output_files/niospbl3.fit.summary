@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Aug 08 19:23:44 2018
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : niospbl3
+Top-level Entity Name : niospbl3
+Family : Cyclone IV E
+Device : EP4CE6E22C7
+Timing Models : Final
+Total logic elements : 1,716 / 6,272 ( 27 % )
+    Total combinational functions : 1,630 / 6,272 ( 26 % )
+    Dedicated logic registers : 920 / 6,272 ( 15 % )
+Total registers : 920
+Total pins : 8 / 92 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 145,408 / 276,480 ( 53 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,161 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/Users/Vinicius/Documents/niospbl3/ --output-directory=C:/Users/Vinicius/Documents/niospbl3/nios/ --report-file=bsf:C:/Users/Vinicius/Documents/niospbl3/nios.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE6E22C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/Vinicius/Documents/niospbl3/nios.qsys
+Progress: Loading niospbl3/nios.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding loadVga_0 [loadVga 1.0]
+Progress: Parameterizing module loadVga_0
+Progress: Adding rx_data_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module rx_data_pio
+Progress: Adding rx_ready_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module rx_ready_pio
+Progress: Adding rx_ready_clr_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module rx_ready_clr_pio
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios.rx_data_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios.rx_ready_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/Users/Vinicius/Documents/niospbl3/ --output-directory=C:/Users/Vinicius/Documents/niospbl3/nios/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/Users/Vinicius/Documents/niospbl3/nios.sopcinfo --report-file=html:C:/Users/Vinicius/Documents/niospbl3/nios.html --report-file=qip:C:/Users/Vinicius/Documents/niospbl3/nios/synthesis/nios.qip --report-file=cmp:C:/Users/Vinicius/Documents/niospbl3/nios.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE6E22C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/Vinicius/Documents/niospbl3/nios.qsys --language=VERILOG
+Progress: Loading niospbl3/nios.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding loadVga_0 [loadVga 1.0]
+Progress: Parameterizing module loadVga_0
+Progress: Adding rx_data_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module rx_data_pio
+Progress: Adding rx_ready_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module rx_ready_pio
+Progress: Adding rx_ready_clr_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module rx_ready_clr_pio
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios.rx_data_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios.rx_ready_pio: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios: Generating nios "nios" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 7 modules, 27 connections
+Info: merlin_custom_instruction_transform: After transform: 10 modules, 30 connections
+Info: merlin_translator_transform: After transform: 17 modules, 58 connections
+Info: merlin_domain_transform: After transform: 30 modules, 141 connections
+Info: merlin_router_transform: After transform: 37 modules, 169 connections
+Info: reset_adaptation_transform: After transform: 38 modules, 134 connections
+Info: merlin_network_to_switch_transform: After transform: 51 modules, 168 connections
+Info: merlin_mm_transform: After transform: 51 modules, 168 connections
+Info: merlin_interrupt_mapper_transform: After transform: 52 modules, 171 connections
+Warning: nios: "No matching role found for nios2_qsys_0_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_ipending (ipending)"
+Warning: nios: "No matching role found for nios2_qsys_0_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_estatus (estatus)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: nios: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Info: nios2_qsys_0: Starting RTL generation for module 'nios_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=nios_nios2_qsys_0 --dir=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0001_nios2_qsys_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0001_nios2_qsys_0_gen//nios_nios2_qsys_0_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: nios2_qsys_0: # 2018.08.03 12:41:38 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2018.08.03 12:41:38 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2018.08.03 12:41:43 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: nios2_qsys_0: # 2018.08.03 12:41:43 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2018.08.03 12:41:43 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2018.08.03 12:41:43 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2018.08.03 12:41:43 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2018.08.03 12:41:43 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2018.08.03 12:41:43 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2018.08.03 12:41:45 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2018.08.03 12:41:45 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2018.08.03 12:41:48 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'nios_nios2_qsys_0'
+Info: nios2_qsys_0: "nios" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'nios_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_onchip_memory2_0 --dir=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0002_onchip_memory2_0_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0002_onchip_memory2_0_gen//nios_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'nios_onchip_memory2_0'
+Info: onchip_memory2_0: "nios" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: loadVga_0: "nios" instantiated loadVga "loadVga_0"
+Info: rx_data_pio: Starting RTL generation for module 'nios_rx_data_pio'
+Info: rx_data_pio:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_rx_data_pio --dir=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0004_rx_data_pio_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0004_rx_data_pio_gen//nios_rx_data_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: rx_data_pio: Done RTL generation for module 'nios_rx_data_pio'
+Info: rx_data_pio: "nios" instantiated altera_avalon_pio "rx_data_pio"
+Info: rx_ready_pio: Starting RTL generation for module 'nios_rx_ready_pio'
+Info: rx_ready_pio:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_rx_ready_pio --dir=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0005_rx_ready_pio_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0005_rx_ready_pio_gen//nios_rx_ready_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: rx_ready_pio: Done RTL generation for module 'nios_rx_ready_pio'
+Info: rx_ready_pio: "nios" instantiated altera_avalon_pio "rx_ready_pio"
+Info: rx_ready_clr_pio: Starting RTL generation for module 'nios_rx_ready_clr_pio'
+Info: rx_ready_clr_pio:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_rx_ready_clr_pio --dir=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0006_rx_ready_clr_pio_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/Vinicius/AppData/Local/Temp/alt7746_1234041085579808589.dir/0006_rx_ready_clr_pio_gen//nios_rx_ready_clr_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: rx_ready_clr_pio: Done RTL generation for module 'nios_rx_ready_clr_pio'
+Info: rx_ready_clr_pio: "nios" instantiated altera_avalon_pio "rx_ready_clr_pio"
+Info: nios2_qsys_0_custom_instruction_master_translator: "nios" instantiated altera_customins_master_translator "nios2_qsys_0_custom_instruction_master_translator"
+Info: nios2_qsys_0_custom_instruction_master_multi_xconnect: "nios" instantiated altera_customins_xconnect "nios2_qsys_0_custom_instruction_master_multi_xconnect"
+Info: nios2_qsys_0_custom_instruction_master_multi_slave_translator0: "nios" instantiated altera_customins_slave_translator "nios2_qsys_0_custom_instruction_master_multi_slave_translator0"
+Info: nios2_qsys_0_instruction_master_translator: "nios" instantiated altera_merlin_master_translator "nios2_qsys_0_instruction_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "nios" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent: "nios" instantiated altera_merlin_master_agent "nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent: "nios" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "nios" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "nios" instantiated altera_merlin_router "addr_router"
+Info: id_router: "nios" instantiated altera_merlin_router "id_router"
+Info: rst_controller: "nios" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "nios" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_mux: "nios" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "nios" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_mux: "nios" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/Users/Vinicius/Documents/niospbl3/nios/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: irq_mapper: "nios" instantiated altera_irq_mapper "irq_mapper"
+Info: nios: Done nios" with 23 modules, 75 files, 1361846 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

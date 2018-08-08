@@ -1,0 +1,40 @@
+
+State Machine - |niospbl3|uart:uart_rx|receiver:uart_rx|state
+Name state.RX_STATE_START state.RX_STATE_STOP state.RX_STATE_DATA 
+state.RX_STATE_START 0 0 0 
+state.RX_STATE_DATA 1 0 1 
+state.RX_STATE_STOP 1 1 0 
+
+State Machine - |niospbl3|uart:uart_rx|transmitter:uart_tx|state
+Name state.STATE_STOP state.STATE_DATA state.STATE_START state.STATE_IDLE 
+state.STATE_IDLE 0 0 0 0 
+state.STATE_START 0 0 1 1 
+state.STATE_DATA 0 1 0 1 
+state.STATE_STOP 1 0 0 1 
+
+State Machine - |niospbl3|nios:u0|readCoprocessador:readcoprocessador_0|state
+Name state.IDLE state.FINISH state.READING 
+state.IDLE 0 0 0 
+state.READING 1 0 1 
+state.FINISH 1 1 0 
+
+State Machine - |niospbl3|nios:u0|loadCoprocessador:loadcoprocessador_0|state
+Name state.IDLE state.FINISH state.WRITING 
+state.IDLE 0 0 0 
+state.WRITING 1 0 1 
+state.FINISH 1 1 0 
+
+State Machine - |niospbl3|nios:u0|loadVga:loadvga_0|state
+Name state.IDLE state.FINISH state.WRITING 
+state.IDLE 0 0 0 
+state.WRITING 1 0 1 
+state.FINISH 1 1 0 
+
+State Machine - |niospbl3|nios:u0|nios_nios2_qsys_0:nios2_qsys_0|nios_nios2_qsys_0_nios2_oci:the_nios_nios2_qsys_0_nios2_oci|nios_nios2_qsys_0_jtag_debug_module_wrapper:the_nios_nios2_qsys_0_jtag_debug_module_wrapper|nios_nios2_qsys_0_jtag_debug_module_tck:the_nios_nios2_qsys_0_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
